@@ -4,7 +4,3 @@ module "asg" {
   ENV             = var.ENV
   INSTANCE_TYPE   = var.INSTANCE_TYPE
 }
-
-output "sample" {
-  value = module.asg.sample
-}
